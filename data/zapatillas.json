@@ -1,0 +1,16 @@
+[
+  {
+    "name": "javier",
+    "surname": "lencina",
+    "status": "procesado",
+    "image": "lencina.jpg",
+    "id": "0"
+  },
+  {
+    "name": "aldo",
+    "surname": "nuñez",
+    "status": "condenado",
+    "image": "nuñez_aldo.jpg",
+    "id": "1"
+  }
+]

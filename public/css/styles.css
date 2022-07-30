@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+form {
+  width: 75%;
+  border: 2px solid royalblue;
+  margin-left: 50px;
+  padding: 20px;
+  color: black;
+  background-color: aliceblue;
+}
+h1 {
+  text-align: center;
+}
+input,
+label {
+  display: block;
+  margin: 10px 0;
+  font-size: 2rem;
+}
+
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: #333;
+  font-size: 1.2em;
+  color: aliceblue;
+}
+img[src*="adidas"] {
+  width: 100%;
+}
+.container-product {
+  width: 250px;
+  outline: 2px solid orange;
+  margin-left: 10px;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
+
+.header {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 2.5em;
+}
+
+.header_link {
+  text-decoration: none;
+  color: gray;
+}
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+}

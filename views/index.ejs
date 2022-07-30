@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Tienda de Zapatillas</title>
+  </head>
+  <body>
+   
+    <h1>  INTERNOS ALOJADOS UNIDAD N°1 RIO GRANDE</h1>
+    <div class="contenedor">
+      <% for(let producto of productos){ %>
+
+ <div class="container-product">
+        <div class="container-image">
+          <img src="/image/<%= producto.image %> " alt="imagen del interno" />
+          
+        </div>
+        <p class="title">Nombre: <%= producto.name%>  </p>
+        <p class="price">Apellido:  <%= producto.surname%></p>
+        <p class="model">Estado:  <%= producto.status%></p>
+      </div>
+   <% } %> 
+     
+
+      
+    </div>
+  </body>
+</html>

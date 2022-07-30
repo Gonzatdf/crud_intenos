@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>formulario para agregar find</title>
+</head>
+<body>
+  
+  <h1>Editar internos</h1>
+  <form action="/products?_method=PUT" method="post">
+<label for="title">Nombre</label>
+<input type="text" name="name" value="<%= find.name %> ">
+<label for="model">apellido</label>
+<input type="text" name="surname" value="<%= find.surname %>">
+<label for="price">Estado</label>
+<input type="text" name="status" value="<%= find.status %>">
+<label for="">Foto</label>
+<input type="file" accept=".webp, .jpg" name="image" value="">
+<input type="submit" value="actualizar">
+  </form>
+</body>
+</html>
