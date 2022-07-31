@@ -8,24 +8,21 @@
     <title>Tienda de Zapatillas</title>
   </head>
   <body>
-   <%- include('../views/partials/header.ejs') %>
-    <h1>  INTERNOS ALOJADOS UNIDAD N°1 RIO GRANDE</h1>
+    <%- include('../views/partials/header.ejs') %>
+    <h1>INTERNOS ALOJADOS UNIDAD N°1 RIO GRANDE</h1>
     <div class="contenedor">
       <% for(let producto of productos){ %>
 
- <div class="container-product">
+      <div class="container-product">
         <div class="container-image">
           <img src="/image/<%= producto.image %> " alt="imagen del interno" />
-          
         </div>
-        <p class="title">Nombre: <%= producto.name%>  </p>
-        <p class="price">Apellido:  <%= producto.surname%></p>
-        <p class="model">Estado:  <%= producto.status%></p>
+        <p class="title">Nombre: <%= producto.name%></p>
+        <p class="price">Apellido: <%= producto.surname%></p>
+        <p class="model">Estado: <%= producto.status%></p>
       </div>
-   <% } %> 
-     
-
-      
+      <% } %>
     </div>
+    <img src="https://picsum.photos/id/1025/300" alt="perrito fiu fiu" />
   </body>
 </html>
